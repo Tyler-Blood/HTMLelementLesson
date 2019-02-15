@@ -1,0 +1,93 @@
+! - denotes correct answer
+
+Question for the learning objective " Understand the nested hierarchy of the HTML Elements."
+
+What is it called when you put one element inside another element in HTML?
+
+! - Nesting
+	All html documents consist of nested elements.  The h1 and p tags that we use are nested inside of the body element which is nested inside of the html element.
+	https://www.w3schools.com/html/html_elements.asp
+Bedding
+	Bedding is not a term used in conjunction with HTML elements.
+Hiding
+  You can use hidden as an attribute in order to hide certain elements but this does not have anything to do with placing elements inside of each other. 
+  https://www.w3schools.com/tags/att_global_hidden.asp
+Compounding
+	Compounding or combining can be done with css but only when you want to make edits to two different html elements.
+	https://www.ostraining.com/blog/coding/css-selectors-firebug/
+
+Question for a Learning Outcome Question for the video "Element hierarchy, nesting, and style cascading - Web design tutorial | www.youtube.com"
+
+When an element is nested inside of another element it is considered to be the ______ element.
+
+Child
+https://javascript.info/dom-navigation
+
+
+Question for a Learning Outcome Question for the website "HTML element - Wikipedia | en.wikipedia.org"
+
+An HTML __________ is an individual component of an HTML document or web page.
+
+! - Element
+	An HTML element is an individual component of an HTML (Hypertext Markup Language) document or web page. HTML is composed of a tree of HTML nodes, such as text nodes. Each node can have HTML attributes specified. Nodes can also have content, including other nodes and text. Many HTML nodes represent semantics, or meaning. For example, the <title> node represents the title of the document.
+  https://en.wikipedia.org/wiki/HTML_element
+Keyword
+  Keywords are used to optomize SEO on a website and are not a part of the HTML document itself.
+  https://www.lifewire.com/keywords-in-html-3469351
+Attribute
+	Attributes provide additional information about HTML elements. For example, <a> tags have the attribute href.
+	https://www.w3schools.com/html/html_attributes.asp
+Tag	
+	A tag is used for creating an element but is not enough to be considered an element itself.  <title> and </title> are both tags used to encompass the title element.
+	https://developer.mozilla.org/en-US/docs/Glossary/Tag
+
+Question for a Learning Outcome Question for the website "Element Hierarchy | Webflow University | university.webflow.com"
+
+
+In webflow, how is does text styling affect the elements.
+
+! - The child inherits the text style of the parent
+  When an element has typography styles, these styles are passed down to its child and grandchild elements. For example, if you edit the font family on the Body element, all of its children elements will inherit the same font family.  Children can override styles inherited from parents and grandparents.
+  https://university.webflow.com/article/element-hierarchy
+The parent inherits the text style of the child
+Text styles are not affected by other elements in the DOM.
+All of the above
+
+Question for the website "Element Hierarchy | Webflow University | university.webflow.com"
+
+In webflow, adding elements inside of a section will make them ___________.
+
+Taller
+  Most elements are sized by the content within them. For instance, sections by default have no defined height. However, adding elements inside a section will make the section taller. 
+	https://university.webflow.com/article/element-hierarchy
+
+Question for a Learning Outcome Question for the learning objective "Understand what the HTML5 Semantic elements are."
+
+Which of the following would be a semantic element?
+
+! - <h1></h1>
+  The h1 semantic element styles the element to look like a header and is recognized by the browser as such.
+  https://developer.mozilla.org/en-US/docs/Glossary/Semantics
+<span style="font-size: 32px; margin: 21px 0;"></span>
+  This will make the item look like a header but the browser will not recognize it as a header.
+  https://developer.mozilla.org/en-US/docs/Glossary/Semantics
+<div></div>
+  This will give the element an id but will not give it any semantic meaning.
+  https://developer.mozilla.org/en-US/docs/Glossary/Semantics
+None of the above
+  H1 is a semantic element. The h1 semantic element styles the element to look like a header and is recognized by the browser as such.
+  https://developer.mozilla.org/en-US/docs/Glossary/Semantics
+
+Question for the video "HTML5 Semantic Markup Tags & Layout - HTML Tutorial for Beginners | www.youtube.com"
+
+What tag would you use for content that is not directly relevant but may be related to the content the user is currently looking at and displayed alongside the main content?
+
+<p></p>
+  The p tag denotes that the text is a paragraph.
+! - <aside></aside>
+  The <aside> tag defines some content aside from the content it is placed in. The aside content should be related to the surrounding content.
+  https://www.w3schools.com/tags/tag_aside.asp
+<a href = “#”></a>
+  The a tag would take the user to a different page and is, therefore, not what we’re looking for.
+<ol></ol>
+  The ol tag would start and close an ordered list and would not display the content alongside the main content in the DOM.
